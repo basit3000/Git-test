@@ -1,0 +1,1 @@
+This is a small Flask setup. The purpose is to test different git functionalities like pull, rebase, cherry-pick, etc for practice.
