@@ -5,7 +5,8 @@ home = Blueprint("home", __name__)
 
 @home.route('/')
 def hello():
-    return '<h1>Welcome to this application. </h1>'
+    new = "Welcome to this application :)!"  
+    return f'<h1>{new}</h1>'
 
 @home.route('/about')
 def about():
